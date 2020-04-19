@@ -19,16 +19,16 @@ class Billete
         this.result.innerHTML+=this.cantidad+" billetes de "+this.valor;
         for(var i = 0; i < this.cantidad; i++)
         {
-            this.result.innerHTML +="  <img src="+this.imagen.src+"/> ";
+            this.result.innerHTML +="  <img src='"+this.imagen.src+"'/> ";
         }
         this.result.innerHTML+="<br><br>";
      
     }
 }
 var nomImg = [];
-nomImg[50] = "50.gif";
-nomImg[20] = "20.gif";
-nomImg[10] = "10.gif";
+nomImg[50] = "50.jpg";
+nomImg[20] = "20.jpg";
+nomImg[10] = "10.jpg";
 
 var caja = [];
 caja.push(new Billete(50,4));
