@@ -26,9 +26,9 @@ class Billete
     }
 }
 var nomImg = [];
-nomImg[50] = "50.jpg";
-nomImg[20] = "20.jpg";
-nomImg[10] = "10.jpg";
+nomImg[50] = "50.gif";
+nomImg[20] = "20.gif";
+nomImg[10] = "10.gif";
 
 var caja = [];
 caja.push(new Billete(50,4));
